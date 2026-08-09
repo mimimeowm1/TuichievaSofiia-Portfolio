@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sofiia Tuichieva — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero" id="hero">
+
+      <div class="hero-top">
+        <span>PORTFOLIO / 2026</span>
+        <span>SEOUL / MOSCOW</span>
+      </div>
+
+      <div class="hero-content">
+
+        <h1>
+          SOFIIA<br>
+          TUICHIEVA
+        </h1>
+
+        <h2>DIGITAL ARTIST / CREATIVE TECHNOLOGIST</h2>
+
+        <p class="hero-fields">
+          ART · INTERACTIVE MEDIA · CREATIVE CODE · 3D
+        </p>
+
+        <button id="exploreBtn">
+          ENTER PORTFOLIO <span>→</span>
+        </button>
+
+      </div>
+
+      <div class="hero-bottom">
+        <span>ARTIST & DESIGNER</span>
+        <span>THIS WEBSITE WAS DESIGNED & CODED BY ME</span>
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FIELD MENU
+    ========================== -->
+
+    <section class="menu-screen" id="menuScreen">
+
+      <div class="menu-header">
+        <p>SELECT A FIELD</p>
+      </div>
+
+      <div class="menu-list">
+
+        <button class="menu-item" id="digitalArtBtn">
+          <span>01</span>
+          <span>DIGITAL ART</span>
+        </button>
+
+        <button class="menu-item" id="interactiveMediaBtn">
+        <span>02</span>
+        <span>INTERACTIVE MEDIA</span>
+        </button>
+
+        <button class="menu-item" id="creativeCodingBtn">
+        <span>03</span>
+        <span>CREATIVE CODING</span>
+        </button>
+
+        <button class="menu-item" id="modelingBtn">
+        <span>04</span>
+        <span>3D / MODELING</span>
+        </button>
+
+        <button class="menu-item" id="traditionalArtBtn">
+        <span>05</span>
+        <span>TRADITIONAL ART</span>
+        </button>
+
+        <button class="menu-item" id="aboutMeBtn">
+        <span>06</span>
+        <span>ABOUT ME</span>
+        </button>
+
+      </div>
+
+      <button class="back-btn" id="backBtn">
+        ← BACK
+      </button>
+
+    </section>
+
+
+    <!-- =========================
+         DIGITAL ART
+    ========================== -->
+
+    <section class="category-screen" id="digitalArtScreen">
+
+      <div class="category-top">
+        <span>01 / DIGITAL ART</span>
+        <span>SOFIIA TUICHIEVA</span>
+      </div>
+
+
+      <div class="category-content">
+
+        <h2>DIGITAL ART</h2>
+
+        <p class="category-description">
+          I work across digital illustration, album cover design,
+          print design and experimental graphics.
+          My workflow spans Photoshop, Illustrator, Procreate,
+          Paint Tool SAI, Clip Studio Paint and ibisPaint,
+          allowing me to adapt freely between different visual
+          styles and production needs.
+        </p>
+
+
+        <!-- TOOLS -->
+
+        <div class="digital-tools">
+
+          <span>TOOLS</span>
+
+          <span>
+            PHOTOSHOP · ILLUSTRATOR · PROCREATE ·
+            PAINT TOOL SAI · CLIP STUDIO PAINT · IBISPAINT
+          </span>
+
+        </div>
+
+
+        <!-- FILTERS -->
+
+        <div class="art-filters">
+
+          <button
+            class="filter-btn active"
+            data-filter="all"
+          >
+            ALL
+          </button>
+
+          <button
+            class="filter-btn"
+            data-filter="illustration"
+          >
+            ILLUSTRATION
+          </button>
+
+          <button
+            class="filter-btn"
+            data-filter="album"
+          >
+            ALBUM COVERS
+          </button>
+
+          <button
+            class="filter-btn"
+            data-filter="prints"
+          >
+            PRINTS
+          </button>
+
+          <button
+            class="filter-btn"
+            data-filter="experimental"
+          >
+            GRAPHIC / EXPERIMENTAL
+          </button>
+
+        </div>
+
+
+        <!-- GALLERY -->
+
+        <div class="art-gallery">
+
+
+          <!-- LEFT SIDE / ART LIST -->
+
+          <div
+            class="art-list"
+            id="artList"
+          >
+          </div>
+
+          <div class="mobile-preview-hint">
+           TAP A WORK TO VIEW IT BELOW ↓
+          </div>
+          
+          <!-- RIGHT SIDE / PREVIEW -->
+
+          <div class="art-preview">
+
+            <div class="preview-placeholder" id="previewPlaceholder" >
+
+              <img
+                id="artPreviewImage"
+                src="assets/digital-art/ARTWORK_01.png"
+                alt="Digital artwork by Sofiia Tuichieva"
+              >
+              
+              <video
+                id="artPreviewVideo"
+                muted
+                loop
+                playsinline
+               ></video>
+
+            </div>
+
+
+            <div class="preview-meta">
+
+              <span>
+                SELECTED DIGITAL WORKS
+              </span>
+
+              <span>
+                HOVER TO EXPLORE
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- BACK TO FIELD MENU -->
+
+      <button
+        class="category-back"
+        id="digitalArtBack"
+      >
+        ← BACK TO FIELDS
+      </button>
+
+    </section>
+
+<!-- =========================
+     INTERACTIVE MEDIA
+========================== -->
+
+<section class="category-screen interactive-screen" id="interactiveMediaScreen">
+
+  <div class="category-top">
+    <span>02 / INTERACTIVE MEDIA</span>
+    <span>SOFIIA TUICHIEVA</span>
+  </div>
+
+  <div class="interactive-intro">
+
+    <h2>INTERACTIVE MEDIA</h2>
+
+    <p>
+      I create interactive digital experiences that combine
+      visual storytelling, creative coding and user interaction.
+      My projects include browser-based games, virtual exhibitions
+      and experimental web experiences.
+    </p>
+
+  </div>
+
+
+  <!-- PROJECT 01 -->
+
+  <article class="media-project">
+
+<div class="media-visual">
+  <div class="media-placeholder">
+
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source
+        src="assets/interactive-media/ESCAPISM.mp4"
+        type="video/mp4"
+      >
+    </video>
+
+     </div>
+</div>
+
+    <div class="media-info">
+
+      <span class="media-number">01</span>
+
+      <h3>ESCAPISM:<br>INSIDE THE DREAM</h3>
+
+      <span class="media-type">
+        BROWSER GAME · P5.JS
+      </span>
+
+      <p>
+        An interactive dream-world game built around exploration,
+        mini-games and visual storytelling.
+      </p>
+
+      <a
+      href="https://mimimeowm1.github.io/escapism-inside-the-dream/"
+      class="media-link"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      OPEN PROJECT ↗
+     </a>
+
+    </div>
+
+  </article>
+
+
+  <!-- PROJECT 02 -->
+
+  <article class="media-project reverse">
+
+    <div class="media-visual">
+  <div class="media-placeholder">
+
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source
+        src="assets/interactive-media/SEVEN.mp4"
+        type="video/mp4"
+      >
+    </video>
+
+  </div>
+</div>
+
+    <div class="media-info">
+
+      <span class="media-number">02</span>
+
+      <h3>SEVEN WAYS<br>TO SHINE</h3>
+
+      <span class="media-type">
+        VIRTUAL EXHIBITION · P5.JS
+      </span>
+
+      <p>
+        A browser-based virtual exhibition combining painting,
+        poetry, interactive navigation and atmospheric visual design.
+      </p>
+
+      <a
+  href="https://mimimeowm1.github.io/seven-ways-to-shine/"
+  class="media-link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  OPEN PROJECT ↗
+</a>
+
+    </div>
+
+  </article>
+
+
+  <!-- PROJECT 03 -->
+
+  <article class="media-project">
+
+   <div class="media-visual">
+  <div class="media-placeholder">
+
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source
+        src="assets/interactive-media/MEMORY.mp4"
+        type="video/mp4"
+      >
+    </video>
+
+  </div>
+</div>
+
+    <div class="media-info">
+
+      <span class="media-number">03</span>
+
+      <h3>MEMORY<br>IS POWER</h3>
+
+      <span class="media-type">
+        INTERACTIVE WEB EXPERIENCE · P5.JS
+      </span>
+
+      <p>
+        An experimental interactive piece where cursor movement
+        transforms the screen and generates visual elements in real time.
+      </p>
+
+     <a
+  href="https://mimimeowm1.github.io/memory_is_power/"
+  class="media-link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  OPEN PROJECT ↗
+</a>
+    </div>
+
+  </article>
+
+
+  <button class="category-back" id="interactiveMediaBack">
+    ← BACK TO FIELDS
+  </button>
+
+</section>
+
+<!-- =========================
+     CREATIVE CODING
+========================== -->
+
+<section class="category-screen coding-screen" id="creativeCodingScreen">
+
+  <div class="category-top">
+    <span>03 / CREATIVE CODING</span>
+    <span>SOFIIA TUICHIEVA</span>
+  </div>
+
+  <div class="coding-intro">
+
+    <h2>CREATIVE CODING</h2>
+
+    <p>
+      I use code as a visual and interactive medium,
+      creating playful tools and browser-based experiments
+      that respond directly to the user.
+    </p>
+
+    <div class="coding-hint">
+      LIVE EXPERIMENTS — CLICK, DRAG & DRAW INSIDE THE WINDOWS
+    </div>
+
+  </div>
+
+
+  <!-- EXPERIMENT 01 -->
+
+  <article class="coding-project">
+
+<div class="try-project">
+  <span class="try-dot"></span>
+  INTERACTIVE — TRY IT DIRECTLY IN THE WINDOW
+  <span class="try-arrow">↓</span>
+</div>
+
+    <div class="coding-window aura-window">
+      <iframe
+        src="https://mimimeowm1.github.io/digital_aura_painting/"
+        title="Digital Aura Painter"
+        loading="lazy"
+      ></iframe>
+
+    </div>
+
+    <div class="coding-meta">
+
+      <div>
+        <span class="coding-number">EXPERIMENT 01</span>
+        <h3>DIGITAL AURA PAINTER</h3>
+      </div>
+
+      <div class="coding-description">
+        <span>P5.JS · INTERACTIVE DRAWING TOOL</span>
+
+        <p>
+          A browser-based drawing experiment built around
+          color, movement and responsive digital brush behavior.
+        </p>
+      </div>
+
+    </div>
+
+  </article>
+
+
+  <!-- EXPERIMENT 02 -->
+
+  <article class="coding-project">
+
+<div class="try-project">
+  <span class="try-dot"></span>
+  INTERACTIVE — TRY IT DIRECTLY IN THE WINDOW
+  <span class="try-arrow">↓</span>
+</div>
+
+    <div class="coding-window">
+
+      <iframe
+        src="https://mimimeowm1.github.io/Liquid-Brush/"
+        title="Liquid Brush"
+        loading="lazy"
+      ></iframe>
+
+    </div>
+
+    <div class="coding-meta">
+
+      <div>
+        <span class="coding-number">EXPERIMENT 02</span>
+        <h3>LIQUID BRUSH</h3>
+      </div>
+
+      <div class="coding-description">
+        <span>P5.JS · GENERATIVE DRAWING TOOL</span>
+
+        <p>
+          An experimental brush that turns cursor movement
+          into fluid, organic visual marks.
+        </p>
+      </div>
+
+    </div>
+
+  </article>
+
+
+  <!-- EXPERIMENT 03 -->
+
+  <article class="coding-project">
+
+<div class="try-project">
+  <span class="try-dot"></span>
+  INTERACTIVE — TRY IT DIRECTLY IN THE WINDOW
+  <span class="try-arrow">↓</span>
+</div>
+
+    <div class="coding-window">
+
+      <iframe
+        src="https://mimimeowm1.github.io/Logo-Editor/"
+        title="Logo Editor"
+        loading="lazy"
+      ></iframe>
+
+    </div>
+
+    <div class="coding-meta">
+
+      <div>
+        <span class="coding-number">EXPERIMENT 03</span>
+        <h3>LOGO EDITOR</h3>
+      </div>
+
+      <div class="coding-description">
+        <span>P5.JS · INTERACTIVE DESIGN TOOL</span>
+
+        <p>
+          A customizable logo generator with controls for
+          typography, layout, color, glow and visual effects.
+        </p>
+      </div>
+
+    </div>
+
+  </article>
+
+
+  <button class="category-back" id="creativeCodingBack">
+    ← BACK TO FIELDS
+  </button>
+
+</section>
+
+
+<!-- =========================
+     3D / MODELING
+========================== -->
+
+<section class="category-screen modeling-screen" id="modelingScreen">
+
+  <div class="category-top">
+    <span>04 / 3D MODELING</span>
+    <span>SOFIIA TUICHIEVA</span>
+  </div>
+
+  <div class="modeling-intro">
+
+    <h2>3D / MODELING</h2>
+
+    <p>
+      I explore 3D modeling as an extension of my visual practice,
+      focusing on character form, topology, UV mapping and texturing.
+      The project below shows both the final model and its underlying
+      mesh structure.
+    </p>
+
+    <div class="modeling-tools">
+      MAYA · BLENDER · MODELING · TOPOLOGY · UV MAPPING · TEXTURING
+    </div>
+
+  </div>
+
+
+  <div class="modeling-grid">
+
+    <!-- FINAL -->
+
+    <article class="modeling-card">
+
+      <div class="modeling-video">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source
+            src="assets/3d/MODEL_FINAL.mp4"
+            type="video/mp4"
+          >
+        </video>
+
+      </div>
+
+      <div class="modeling-meta">
+        <span>01</span>
+        <h3>FINAL VIEW</h3>
+      </div>
+
+    </article>
+
+
+    <!-- WIREFRAME -->
+
+    <article class="modeling-card">
+
+      <div class="modeling-video">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source
+            src="assets/3d/MODEL_WIREFRAME.mp4"
+            type="video/mp4"
+          >
+        </video>
+
+      </div>
+
+      <div class="modeling-meta">
+        <span>02</span>
+        <h3>WIREFRAME / TOPOLOGY</h3>
+      </div>
+
+    </article>
+
+  </div>
+
+
+  <button class="category-back" id="modelingBack">
+    ← BACK TO FIELDS
+  </button>
+
+</section>
+
+<!-- =========================
+     TRADITIONAL ART
+========================== -->
+
+<section class="category-screen traditional-screen" id="traditionalArtScreen">
+
+  <div class="category-top">
+    <span>05 / TRADITIONAL ART</span>
+    <span>SOFIIA TUICHIEVA</span>
+  </div>
+
+  <div class="traditional-intro">
+
+    <h2>TRADITIONAL ART</h2>
+
+    <p>
+      My traditional practice is driven by experimentation,
+      material and emotion. I am interested in allowing materials
+      to behave unpredictably — combining acrylic paint with paper,
+      hanji, tissue, water and layered textures directly on canvas.
+    </p>
+
+    <p>
+      Rather than controlling every element, I use these interactions
+      to explore color, surface and emotional expression.
+    </p>
+
+  </div>
+
+
+  <!-- =========================
+       ART 01
+  ========================== -->
+
+  <section class="traditional-series series-one">
+
+    <div class="series-text">
+
+      <span class="series-number">01 / MATERIAL EXPERIMENT</span>
+
+      <h3>HANJI / ACRYLIC / CANVAS</h3>
+
+      <p>
+        A portrait-based mixed-media experiment combining acrylic
+        painting with wet hanji applied directly onto canvas.
+        The work explores the tension between controlled portraiture
+        and the unpredictable behavior of wet material, texture and color.
+      </p>
+
+    </div>
+
+
+    <figure class="trad-media trad-a1-main">
+      <img
+        src="assets/traditional-art/ART1_1.jpg"
+        alt="Traditional mixed media artwork by Sofiia Tuichieva"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a1-detail">
+      <img
+        src="assets/traditional-art/ART1_2.jpg"
+        alt="Detail of mixed media artwork"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a1-process">
+      <video autoplay muted loop playsinline>
+        <source
+          src="assets/traditional-art/ART1_PROCESS.mp4"
+          type="video/mp4"
+        >
+      </video>
+    </figure>
+
+    <figure class="trad-media trad-a1-show">
+      <video autoplay muted loop playsinline>
+        <source
+          src="assets/traditional-art/ART1_SHOW.mp4"
+          type="video/mp4"
+        >
+      </video>
+    </figure>
+
+  </section>
+
+
+  <!-- =========================
+       ART 02
+  ========================== -->
+
+  <section class="traditional-series series-two">
+
+    <div class="series-text">
+
+      <span class="series-number">02 / MATERIAL EXPERIMENT</span>
+
+      <h3>TISSUE / LIQUID COLOR / CANVAS</h3>
+
+      <p>
+        An experimental surface study using ordinary tissue paper,
+        liquid paints and layered color. I was interested in how
+        inexpensive everyday material could transform into an expressive
+        texture through saturation, tearing, folding and pigment.
+      </p>
+
+    </div>
+
+
+    <figure class="trad-media trad-a2-1">
+      <img
+        src="assets/traditional-art/ART2_1.jpg"
+        alt="Experimental mixed media artwork"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a2-2">
+      <img
+        src="assets/traditional-art/ART2_2.jpg"
+        alt="Detail of experimental artwork"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a2-3">
+      <img
+        src="assets/traditional-art/ART2_3.jpg"
+        alt="Detail of experimental artwork"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a2-4">
+      <img
+        src="assets/traditional-art/ART2_4.jpg"
+        alt="Detail of experimental artwork"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a2-5">
+      <img
+        src="assets/traditional-art/ART2_5.jpg"
+        alt="Detail of experimental artwork"
+      >
+    </figure>
+
+    <figure class="trad-media trad-a2-process">
+      <video autoplay muted loop playsinline>
+        <source
+          src="assets/traditional-art/ART2_PROCESS.mp4"
+          type="video/mp4"
+        >
+      </video>
+    </figure>
+
+  </section>
+
+
+  <!-- =========================
+       SKETCHBOOK
+  ========================== -->
+
+  <section class="traditional-series sketch-series">
+
+    <div class="series-text sketch-text">
+
+      <span class="series-number">03 / SKETCHBOOK</span>
+
+      <h3>DRAWING AS MOVEMENT</h3>
+
+      <p>
+        My sketches are built through quick, airy and dynamic lines.
+        Rather than searching for perfect contours, I use gesture,
+        rhythm and movement to capture emotion, tension and energy.
+      </p>
+
+    </div>
+
+
+    <figure class="trad-media sketch-one">
+      <img
+        src="assets/traditional-art/ARTSKETCH_1.jpg"
+        alt="Pencil sketch by Sofiia Tuichieva"
+      >
+    </figure>
+
+    <figure class="trad-media sketch-two">
+      <img
+        src="assets/traditional-art/ARTSKETCH_2.jpg"
+        alt="Pencil sketch by Sofiia Tuichieva"
+      >
+    </figure>
+
+    <figure class="trad-media sketch-three">
+      <img
+        src="assets/traditional-art/ARTSKETCH_3.jpg"
+        alt="Pencil sketch by Sofiia Tuichieva"
+      >
+    </figure>
+
+  </section>
+
+
+  <button class="category-back" id="traditionalArtBack">
+    ← BACK TO FIELDS
+  </button>
+
+</section>
+
+<!-- =========================
+     ABOUT ME
+========================== -->
+
+<section class="category-screen about-screen" id="aboutMeScreen">
+
+  <div class="category-top">
+    <span>06 / ABOUT ME</span>
+    <span>SOFIIA TUICHIEVA</span>
+  </div>
+
+  <div class="about-layout">
+
+    <!-- LEFT -->
+
+    <div class="about-title">
+      <h2>
+        ABOUT<br>
+        ME
+      </h2>
+
+      <span class="about-role">
+        DIGITAL ARTIST / CREATIVE TECHNOLOGIST
+      </span>
+    </div>
+
+
+    <!-- RIGHT -->
+
+    <div class="about-content">
+
+      <p class="about-lead">
+        I am a digital artist and creative technologist studying
+        Art & Technology at Sogang University in Seoul.
+        My practice moves between digital art, interactive media,
+        creative coding, 3D and experimental traditional materials.
+      </p>
+
+      <p class="about-lead">
+        I learn new tools quickly, work efficiently and enjoy adapting
+        across different visual and technical workflows.
+      </p>
+
+
+      <div class="about-grid">
+
+        <!-- EDUCATION -->
+
+        <div class="about-block">
+
+          <span class="about-label">
+            EDUCATION
+          </span>
+
+          <h3>SOGANG UNIVERSITY</h3>
+
+          <p>
+            Art & Technology<br>
+            3rd Year Student<br>
+            Seoul, South Korea
+          </p>
+
+        </div>
+
+
+        <!-- LANGUAGES -->
+
+        <div class="about-block">
+
+          <span class="about-label">
+            LANGUAGES
+          </span>
+
+          <div class="about-list">
+
+            <div>
+              <span>RUSSIAN</span>
+              <span>NATIVE</span>
+            </div>
+
+            <div>
+              <span>ENGLISH</span>
+              <span>FLUENT</span>
+            </div>
+
+            <div>
+              <span>KOREAN</span>
+              <span>FLUENT / TOPIK 6</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- WORK STYLE -->
+
+        <div class="about-block">
+
+          <span class="about-label">
+            WORK STYLE
+          </span>
+
+          <div class="about-list simple">
+
+            <div>FAST LEARNER</div>
+            <div>EFFICIENT WORKFLOW</div>
+            <div>ADAPTABLE ACROSS MEDIA</div>
+            <div>VISUAL + TECHNICAL THINKING</div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div class="about-block">
+
+          <span class="about-label">
+            CONTACT
+          </span>
+
+          <div class="about-links">
+
+            <div class="email-contact">
+            <span>EMAIL</span>
+            <span>cloudsonyameow@gmail.com</span>
+            </div>
+
+            <a
+              href="https://www.instagram.com/mimimeowm1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              INSTAGRAM ↗
+            </a>
+
+            <a
+              href="https://github.com/mimimeowm1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GITHUB ↗
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <button class="category-back" id="aboutMeBack">
+    ← BACK TO FIELDS
+  </button>
+
+</section>
+
+    
+ <div class="zoom-viewer" id="zoomViewer">
+
+  <button class="zoom-close" id="zoomClose">
+    ×
+  </button>
+
+  <img
+    id="zoomImage"
+    src=""
+    alt="Full size digital artwork"
+  >
+
+  <video
+    id="zoomVideo"
+    muted
+    loop
+    playsinline
+    controls
+  ></video>
+
+   </div>
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
