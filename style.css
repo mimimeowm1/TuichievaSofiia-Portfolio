@@ -2352,3 +2352,43 @@ main {
   }
 
 }
+
+
+/* =========================
+   LINKS + STANDALONE PAGES
+========================= */
+
+.menu-item,
+.category-back {
+  text-decoration: none;
+}
+
+.category-back {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.digital-art-back-top {
+  display: block;
+  margin: 0 0 35px 0;
+}
+
+.standalone-page main {
+  height: 100vh;
+}
+
+.standalone-page .category-screen {
+  transform: none;
+  opacity: 1;
+}
+
+@media (max-width: 700px) {
+  .digital-art-back-top {
+    margin-bottom: 25px;
+  }
+
+  .digital-art-back-bottom {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+}

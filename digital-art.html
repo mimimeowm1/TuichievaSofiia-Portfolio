@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Digital Art — Sofiia Tuichieva</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="standalone-page">
+
+  <main>
+
+    <section
+      class="category-screen category-visible"
+      id="digitalArtScreen"
+    >
+
+      <div class="category-top">
+        <span>02 / DIGITAL ART</span>
+        <span>SOFIIA TUICHIEVA</span>
+      </div>
+
+      <div class="category-content">
+
+        <a
+          href="index.html#fields"
+          class="category-back digital-art-back-top"
+        >
+          ← BACK TO FIELDS
+        </a>
+
+        <h2>DIGITAL ART</h2>
+
+        <p class="category-description">
+          I work across digital illustration, album cover design,
+          print design and experimental graphics.
+          My workflow spans Photoshop, Illustrator, Procreate,
+          Paint Tool SAI, Clip Studio Paint and ibisPaint,
+          allowing me to adapt freely between different visual
+          styles and production needs.
+        </p>
+
+        <div class="digital-tools">
+
+          <span>TOOLS</span>
+
+          <span>
+            PHOTOSHOP · ILLUSTRATOR · PROCREATE ·
+            PAINT TOOL SAI · CLIP STUDIO PAINT · IBISPAINT
+          </span>
+
+        </div>
+
+        <div class="art-filters">
+
+          <button class="filter-btn active" data-filter="all">
+            ALL
+          </button>
+
+          <button class="filter-btn" data-filter="illustration">
+            ILLUSTRATION
+          </button>
+
+          <button class="filter-btn" data-filter="album">
+            ALBUM COVERS
+          </button>
+
+          <button class="filter-btn" data-filter="prints">
+            PRINTS
+          </button>
+
+          <button class="filter-btn" data-filter="experimental">
+            GRAPHIC / EXPERIMENTAL
+          </button>
+
+        </div>
+
+        <div class="art-gallery">
+
+          <div
+            class="art-list"
+            id="artList"
+          ></div>
+
+          <div class="mobile-preview-hint">
+            TAP A WORK TO VIEW IT BELOW ↓
+          </div>
+
+          <div class="art-preview">
+
+            <div
+              class="preview-placeholder"
+              id="previewPlaceholder"
+            >
+
+              <img
+                id="artPreviewImage"
+                src="assets/digital-art/ARTWORK_01.PNG"
+                alt="Digital artwork by Sofiia Tuichieva"
+              >
+
+              <video
+                id="artPreviewVideo"
+                muted
+                loop
+                playsinline
+              ></video>
+
+            </div>
+
+            <div class="preview-meta">
+
+              <span>SELECTED DIGITAL WORKS</span>
+              <span>HOVER TO EXPLORE</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <a
+        href="index.html#fields"
+        class="category-back digital-art-back-bottom"
+      >
+        ← BACK TO FIELDS
+      </a>
+
+    </section>
+
+
+    <!-- FULLSCREEN ART VIEWER -->
+
+    <div class="zoom-viewer" id="zoomViewer">
+
+      <button class="zoom-close" id="zoomClose">
+        ×
+      </button>
+
+      <img
+        id="zoomImage"
+        src=""
+        alt="Full size digital artwork"
+      >
+
+      <video
+        id="zoomVideo"
+        muted
+        loop
+        playsinline
+        controls
+      ></video>
+
+    </div>
+
+  </main>
+
+  <script src="digital-art.js"></script>
+
+</body>
+</html>
